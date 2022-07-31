@@ -1,0 +1,135 @@
+body {
+    display: flex;
+
+}
+
+.header {
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 10px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #21325E;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navbar a:hover{
+    color: #398AB9;
+}
+
+/* ------------------------------------------------------ */
+/* Info */
+.info {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    align-items: center;
+}
+
+.info .name {
+    text-align: center;
+}
+
+.info .name h1 {
+    font-size: 80px;
+}
+
+.info .name p {
+    font-size: 20px;
+    color: gray;
+}
+
+.info .profile_info p {
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.skills {
+    align-items: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.skills img {
+    height: 500px;
+    width: 900px;
+}
+
+.academic {
+    align-items: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.academic img {
+    height: 500px;
+    width: 900px;
+}
+
+.projects {
+    align-items: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.projects img {
+    height: 500px;
+    width: 900px;
+}
+
+.seminars {
+    align-items: center;
+    margin: auto;
+    padding-top: 80px;
+}
+.seminars img {
+    height: 500px;
+    width: 900px;
+}
+
+
+/* ------------------------------------------------------ */
+/* Footer */
+.footer {
+    position: fixed;
+    margin-top: 10px;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 120px;
+    background: #21325E;
+    align-items: center;
+    color: white;
+}
+
+.footer h1 {
+    text-align: center;
+}
+
+.fcontent {
+    display: grid;
+    grid-template-columns: repeat(5, 260px);
+    gap: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.fcontent a {
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.fcontent a:hover{
+    color: #398AB9;
+}
