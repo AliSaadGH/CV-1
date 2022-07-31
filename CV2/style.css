@@ -1,0 +1,287 @@
+/* Header start */
+.header {
+    position: fixed;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    left: 0; top: 0; right: 0;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px #395B64;
+    background-color: #A5C9CA;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #395B64;
+}
+
+.header a {
+    color: #395B64;
+    font-size: 20px;
+}
+
+.header a:hover {
+    color: aqua;
+}
+.header .navbar a {
+    text-decoration: none;
+    color: #395B64;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.header .navbar a:hover {
+    color: aqua;
+}
+/* Header end */
+
+/* -------------------------------------------------- */
+
+/* Info start */
+.info {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info h1 {
+    font-size: 50px;
+}
+
+.info p {
+    font-size: 20px;
+    text-align: justify;
+    color: #395B64;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #395B64;
+    border-color: #395B64;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/* Info end */
+
+/* -------------------------------------------------- */
+
+/* Skills start */
+.skills {
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 500px 800px;
+}
+
+.skills .languages h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #395B64;
+}
+
+.skills .languages h2 {
+    padding-left: 20px;
+}
+
+.skills .languages p {
+    padding-left: 20px;
+}
+
+/* Skills end */
+
+/* -------------------------------------------------- */
+
+/* Second page */
+
+/* Academic Courses start */
+.academic {
+    padding-top: 100px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.academic h1 {
+    font-size: 40px;
+    color: #395B64;
+}
+
+.academic img {
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.academic .courses .box #img2 {
+    padding-top: 5px;
+}
+
+.academic h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.academic .courses {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    gap: 90px;
+    padding-left: 2px;
+}
+
+.academic .courses .box {
+    height: 180px;
+    width: 150px;
+    background-color: #395B64;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.academic .courses .box1 {
+    background-color: #00323f;
+}
+
+.academic .courses .box2 {
+    background-color: #01607a;
+}
+
+.academic .courses .box3 {
+    background-color: #0081a4;
+}
+
+.academic .courses .box4 {
+    background-color: #00a6d4;
+}
+
+.academic .courses .box5 {
+    background-color: #00a6d4;
+}
+
+.academic .courses .box6 {
+    background-color: #0081a4;
+}
+
+.academic .courses .box7 {
+    background-color: #01607a;
+}
+
+.academic .courses .box8 {
+    background-color: #00323f;
+}
+/* Academic Courses end */
+
+/* -------------------------------------------------- */
+
+hr {
+    width: 600px;
+    height: 2px;
+    border: none;
+    background-color: #A5C9CA; 
+    margin-top: 40px; 
+}
+
+/* -------------------------------------------------- */
+
+/* Projects start */
+.projects h1 {
+    font-size: 40px;
+    color: #395B64;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.projects .div1 {
+    text-align: center;
+}
+/* Projects end */
+
+/* -------------------------------------------------- */
+
+/* Seminars start */
+.seminars {
+    text-align: center;
+}
+
+.seminars h1 {
+    font-size: 40px;
+    color: #395B64;
+    padding-top: 20px;
+}
+
+.seminars p {
+    font-size: 18px;
+    color: #395B64;
+}
+/* Seminars end */
+.contacts h1 {
+    font-size: 40px;
+    color: #395B64;
+    text-align: center;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    gap: 1px;
+    justify-content: space-evenly;
+}
+
+.circle img {
+    padding: 7px;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: white;
+    margin-top: 50px;
+}
+
+.container {
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.location {
+    background-color: #2b464d;
+}
+
+.phone {
+    background-color: #4d7f8b;
+}
+.phone h1 {
+    font-size: 20px;
+}
+
+.email {
+    background-color: #6baebf;
+}
+
+.facebook {
+    background-color: #4d7f8b;
+}
+
+.instagram {
+    background-color: #2b464d;
+}
+
+.circle {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+}
+
