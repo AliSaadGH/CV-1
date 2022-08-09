@@ -1,0 +1,625 @@
+/* Head start */
+
+.head {
+    display: flex;
+    background: rgb(229, 229, 229);
+}
+
+.head .p1 {
+    margin: auto;
+    margin-left: 22px;
+}
+
+.head .p1 span{
+    color: #E23E1D;
+}
+
+.head .p2 {
+    margin-left: 100px;
+    margin: auto;
+}
+
+.head .p2 span {
+    color: #E23E1D;
+}
+
+.rightContent {
+    display: flex;
+    margin-left: 600px;
+    margin-right: 20px;
+}
+
+.dropdown .btn {
+    border: none;
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 20px;
+    margin: auto;
+}
+
+.social {
+    margin: auto;
+}
+
+.social a{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.social a:hover {
+    color: #E23E1D;
+}
+/* Head end */
+
+/* --------------------------------------------------------------------- */
+
+/* NavBar start */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    background: white;
+}
+
+.header .title span {
+    color: #E23E1D;
+}
+
+.header .navBar a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.header .navBar a:hover {
+    color: #E23E1D;
+}
+
+.header .signin {
+    display: flex;
+    margin-right: 20px;
+}
+
+.header .signin a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .signin a:hover {
+    color: #E23E1D;
+}
+
+
+/* NavBar end */
+
+/* --------------------------------------------------------------------- */
+
+/* Boxx start */
+
+.boxx {
+    display: flex;
+    margin: 20px;
+}
+
+/* Boxx end */
+
+/* --------------------------------------------------------------------- */
+
+/* SideBar start */
+
+/* Side Bar Departments start */
+
+.sideBar {
+    width: 15%;
+    height: auto;
+}
+
+.sideBar .sideBarButton {
+    width: 100%;
+    height: 40px;
+    background: #E23E1D;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.sideBar .sideBarDepts {
+    border: lightgray;
+    line-height: 40px;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.sideBar .sideBarDepts a {
+    text-decoration: none;
+    color: black;
+}
+
+.sideBar .sideBarDepts a:hover {
+    color: #E23E1D;
+}
+
+.sideBar .sideBarDepts i {
+    color: grey;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+/* Side Bar Departments end */
+
+/* --------------------------------------------------------------------- */
+
+/* Deal of the Week start */
+
+.dealOfTheWeek {
+    margin-top: 40px;
+}
+
+.dealOfTheWeek .titleBar {
+    width: 100%;
+    height: 2px;
+}
+
+.dealOfTheWeek .sideBarItems {
+    padding: 10px;
+    border: 2px solid #E23E1D;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.dealOfTheWeek .sideBarItems .discreption {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.dealOfTheWeek .sideBarItems img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.dealOfTheWeek .sideBarItems .price-star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dealOfTheWeek .sideBarItems .price-star .price {
+    color: #E23E1D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dealOfTheWeek .sideBarItems .price-star .star {
+    color: gold;
+}
+
+.dealOfTheWeek .sideBarItems .progressLine {
+    height: 5px;
+    width: 100%;
+}
+
+progress {
+    -webkit-appearance: none;
+}
+  
+::-webkit-progress-value {
+    background-color: #E23E1D;
+}
+
+::-webkit-progress-bar {
+    background-color: lightgray;
+}
+
+.dealOfTheWeek .sideBarItems .sold-available {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.dealOfTheWeek .sideBarItems .time {
+    display: grid;
+    grid-template-columns: repeat(4, 10px);
+    gap: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.dealOfTheWeek .sideBarItems .time .timeBox {
+    width: 30px;
+    height: 30px;
+    background: #eef1ff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dealOfTheWeek .sideBarItems .time .timeBox span {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* Deal of the Week end */
+
+/* --------------------------------------------------------------------- */
+
+/* Latest Items start */
+
+.latestItems {
+    margin-top: 40px;
+}
+
+.latestItems .title-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.latestItems .title-buttons button {
+    border: none;
+}
+
+.latestItems .title-buttons button:hover {
+    background-color: #E23E1D;
+    color: white;
+}
+
+.latestItems .titleBar {
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.latestItems .latestItemsInfo {
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.latestItems .latestItemsInfo .image {
+    display: flex;
+    width: 80px;
+}
+
+.latestItems .latestItemsInfo .image img {
+    margin: auto;
+}
+
+.latestItems .latestItemsInfo .info p {
+    margin: auto;
+}
+
+.latestItems .latestItemsInfo .itemName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.latestItems .latestItemsInfo .price {
+    color: #E23E1D;
+    font-weight: bold;
+}
+
+.latestItems .latestItemsInfo .oldPrice {
+    color: gray;
+}
+
+/* Latest Items end */
+
+/* SideBar end */
+
+/* --------------------------------------------------------------------- */
+
+/* Body start */
+
+.body {
+    width: 85%;
+    height: auto;
+    margin-left: 30px;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Up Bar start */
+
+.upBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upBar .search {
+    display: flex;
+}
+
+.upBar .search .dropdown .btn {
+    border: 1px solid lightgray;
+    border-radius: 0%;
+    height: 40px;
+}
+
+.upBar .search .upBarInput {
+    width: 400px;
+    border: 1px solid lightgray
+}
+
+.upBar .search .upBarSearchButton {
+    width: 100px;
+    border: none;
+    background: #E23E1D;
+    color: white;
+}
+
+.upBar .search .upBarSearchButton:hover {
+    background: #c1361a;
+}
+
+.upBar .delivery {
+    display: flex;
+    font-size: 20px;
+}
+
+.upBar .delivery .item {
+    margin: auto;
+    padding-left: 20px;
+}
+
+.upBar .delivery p {
+    font-weight: bold;
+}
+
+.upBar .delivery .item:hover {
+    color: #E23E1D;
+}
+
+/* Up Bar end */
+
+/* --------------------------------------------------------------------- */
+
+/* Ads start */
+
+.ads {
+    width: 100%;
+    height: 510px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.ads .ad1 {
+    width: 50%;
+    height: 100%;
+    background: #F1F1F9;
+    display: flex;
+}
+
+.ads .ad1:hover {
+    box-shadow: inset 200px 0 200px 0 #eec3ba;
+    transition: ease-in 0.6s;
+}
+
+.ads .ad1 .info {
+    margin: auto;
+}
+
+.ads .ad1 .info .category {
+    color: #E23E1D;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ads .ad1 .info .itemName {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ads .ad1 .info .price {
+    display: flex;
+}
+
+.ads .ad1 .info .price .newPrice {
+    color: #E23E1D;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: baseline;
+}
+
+.ads .ad1 .info button {
+    border: 2px solid #E23E1D;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ads .ad1 .info button:hover {
+    background: #E23E1D;
+    color: white;
+}
+
+.ads .ad1 img {
+    margin-right: 10px;
+}
+
+.ads .restAds {
+    width: 48%;
+    height: 100%;
+    margin-left: 25px;
+}
+
+.ads .restAds .box {
+    width: 100%;
+    height: 47%;
+    display: flex;
+}
+
+.ads .restAds .box1 .item2 {
+    margin-left: 25px;
+}
+
+.ads .restAds .box2 {
+    margin-top: 25px;
+
+}
+
+.ads .restAds .box2 .item4 {
+    margin-left: 25px;
+}
+
+.ads .restAds .box .item {
+    background: #F1F1F9;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.ads .restAds .box .item:hover {
+    box-shadow: inset 100px 0 100px 0 #eec3ba;
+    transition: ease-in 0.6s;
+}
+
+.ads .restAds .item .info {
+    margin: auto;
+}
+
+.ads .restAds .item .info .category {
+    color: #E23E1D;
+    font-weight: bold;
+}
+
+.ads .restAds .item img {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+}
+
+/* Ads end */
+
+/* --------------------------------------------------------------------- */
+
+/* Top Categories start */
+
+.topCategories {
+    margin-top: 40px;
+}
+
+.topCategories .titleBar {
+    width: 100%;
+    height: 3px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.topCategories .topCategoriesItems {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topCategories .topCategoriesItems .box {
+    background: #F1F1F9;
+    width: 190px;
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.topCategories .topCategoriesItems .box:hover {
+    box-shadow: inset 200px 200px 40px 0 #eec3ba;
+    transition: ease-in 1s;
+}
+
+.topCategories .topCategoriesItems .box img {
+    width: 100px;
+    height: 100px;
+}
+
+.topCategories .topCategoriesItems .box .category {
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+    
+}
+
+/* Top Categories end */
+
+/* New Arrivals start */
+
+.newArrivals {
+    margin-top: 60px;
+}
+
+.newArrivals .headers {
+    display: flex;
+}
+
+.newArrivals .headers h5 {
+    margin-right: 40px;
+}
+
+.newArrivals .titleBar {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.newArrivals .newArrivalsItems {
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(5, 19.4%);
+    grid-template-rows: repeat(2, 49%);
+    gap: 10px;
+}
+
+.newArrivals .newArrivalsItems .box {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.newArrivals .newArrivalsItems .box .category {
+    color: gray;
+}
+
+.newArrivals .newArrivalsItems .box .description {
+    font-weight: bold;
+}
+
+.newArrivals .newArrivalsItems .box img {
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.newArrivals .newArrivalsItems .box hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.newArrivals .newArrivalsItems .box .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newArrivals .newArrivalsItems .box .price .newPrice {
+    color: #E23E1D;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.newArrivals .newArrivalsItems .box .price .stars {
+    color: gold;
+}
+
+/* New Arrivals end */
+
+/* Body end */
